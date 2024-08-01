@@ -48,7 +48,8 @@ where exists(select * from movies where movie_rating between 8.5 and 9.2) order 
 
 select series_name,series_rating,series_seasons,series_release from webseries
  where  series_seasons>2 and series_rating limit 2,4;
- 
+
+select anime_name from anime where no_of_episodes>500;
  
  
  
